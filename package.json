@@ -1,0 +1,17 @@
+{
+  "name": "commerce-order-console",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Commerce Order Console - Fynd Hiring Hackathon (Store Operations)",
+  "scripts": {
+    "start": "node backend/src/server.js",
+    "seed": "node backend/src/database/seed.js",
+    "test": "npm test --prefix backend",
+    "dev:backend": "node backend/src/server.js",
+    "dev:frontend": "npm run dev --prefix frontend",
+    "build:frontend": "npm run build --prefix frontend"
+  },
+  "keywords": ["commerce", "orders", "inventory", "hackathon"],
+  "author": "",
+  "license": "ISC"
+}

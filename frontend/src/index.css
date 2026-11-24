@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --color-primary: #02968A;
+  --color-primary-hover: #027C72;
+  --color-primary-light: #E6F5F4;
+  --color-primary-dark: #014E48;
+
+  --color-teal: #02968A;
+  --color-teal-hover: #027C72;
+  --color-teal-light: #E6F5F4;
+  --color-teal-dark: #014E48;
+
+  --color-blue: #2563EB;
+  --color-blue-light: #EFF6FF;
+
+  --color-green: #10B981;
+  --color-green-light: #ECFDF5;
+
+  --color-amber: #F59E0B;
+  --color-amber-light: #FFFBEB;
+
+  --color-rose: #EF4444;
+  --color-rose-light: #FEF2F2;
+}
+
+@layer base {
+  body {
+    @apply bg-slate-50 text-slate-900 font-sans antialiased min-h-screen selection:bg-[#02968A] selection:text-white;
+  }
+}
